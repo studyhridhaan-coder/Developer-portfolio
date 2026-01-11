@@ -30,6 +30,16 @@ padding: 5px 10px;cursor: pointer; }
 
 .profile-pic { width: 120px; border-radius: 50%; margin-top: 10px; }
 
+.nav { text-align: center;
+  margin: 10px 0;
+}
+
+.nav a { text-decoration: none;
+  padding: 6px 12px; border: 1px solid #ccc; color: black; font-size: 14px;
+}
+
+.nav a:hover { background-color: #f2f2f2;
+}
 
 .projects {
   margin-left: 30px;
