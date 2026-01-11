@@ -34,6 +34,11 @@ padding: 5px 10px;cursor: pointer; }
   margin: 10px 0;
 }
 
+.dark .nav a { color: white; border-color: #444;
+}
+
+.dark .nav a:hover { background-color: #222; }
+
 .nav a { text-decoration: none;
   padding: 6px 12px; border: 1px solid #ccc; color: black; font-size: 14px;
 }
