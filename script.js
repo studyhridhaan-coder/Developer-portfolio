@@ -7,6 +7,6 @@ index++;
 setTimeout(typeText, 40);
 }}
 typeText();
-function changeStatus() { document.getElementById("statusText").innerText = "Status: Building cool projects!";
+function changeStatus() { document.getElementById("statusText").innerText = "Status: Building cool projects! and learning SQL";
 }
 
