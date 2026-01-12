@@ -6,6 +6,7 @@ if (index < text.length) { document.getElementById("typing-text").innerHTML += t
 index++;
 setTimeout(typeText, 40);
 }}
-
 typeText();
-
+function resizeImage() { var image = document.getElementById("myPic");
+if (image.width == 120) { image.width = 180; } else { image.width = 120;
+} }
