@@ -7,6 +7,6 @@ index++;
 setTimeout(typeText, 40);
 }}
 typeText();
-function resizeImage() { var image = document.getElementById("myPic");
-if (image.width == 120) { image.width = 180; } else { image.width = 120;
-} }
+function changeStatus() { document.getElementById("statusText").innerText = "Status: Building cool projects!";
+}
+
