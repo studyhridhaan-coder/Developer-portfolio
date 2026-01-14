@@ -1,157 +1,29 @@
-body {
-  background-color: white;
-  color: black;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
+body { background-color: white; color: black; font-family: Arial, sans-serif; line-height: 1.6; }
+.top-section { position: relative; background-color: #fff4cc; padding: 20px 10px; }
+.dark .top-section { background-color: #2a2a1a; }
+center { background-color: transparent; padding: 15px; }
+h1 { margin-top: 10px; }
+.top-section h1 { color: #fff4cc; }
+.dark .top-section h1 { color: #ffd966; }
+.profile-pic { display: block; margin: 10px auto; width: 120px; border-radius: 50%; }
+#typing-text { max-width: 700px; margin: auto; }
+.darkmode-btn { position: absolute; top: 10px; right: 10px; padding: 6px 12px; font-size: 14px; cursor: pointer; }
+.nav { text-align: center; margin: 10px 0; }
+.nav a { text-decoration: none; padding: 6px 12px; border: 1px solid #ccc; color: black; font-size: 14px; }
+.nav a:hover { background-color: #f2f2f2; }
+.dark .nav a { color: white; border-color: #444; }
+.dark .nav a:hover { background-color: #222; }
+h2 { margin-top: 40px; color: #1a73e8; }
+.dark h2 { color: #8ab4f8; }
+.projects { margin-left: 30px; background-color: #fff4cc; padding: 10px; border-radius: 6px; }
+.dark .projects { background-color: #1e1e1e; }
+button { background-color: #fff4cc; color: white; border: none; padding: 6px 12px; cursor: pointer; }
+button:hover { background-color: #1558b0; }
+.dark button { background-color: #3b82f6; }
+a { color: #1a73e8; }
+a:hover { color: #1558b0; }
+.dark a { color: #8ab4f8; }
+.footer { margin-top: 40px;  padding: 15px; text-align: center; background-color: #f2f2f2; color: #333; }
+.dark .footer { background-color: #1a1a1a; color: #ccc; }
+.dark { background-color: #111; color: white; }
 
-/* Top section */
-.top-section {
-  position: relative;
-  background-color: #fff4cc;
-  padding: 20px 10px;
-}
-
-.dark .top-section {
-  background-color: #2a2a1a;
-}
-
-/* Header content */
-center {
-  background-color: transparent;
-  padding: 15px;
-}
-
-h1 {
-  margin-top: 10px;
-}
-.top-section h1 {
-  color: #fff4cc; /* darker yellow text */
-}
-
-.dark .top-section h1 {
-  color: #ffd966;
-}
-
-/* Profile image */
-.profile-pic {
-  display: block;
-  margin: 10px auto;
-  width: 120px;
-  border-radius: 50%;
-}
-
-/* Typing text */
-#typing-text {
-  max-width: 700px;
-  margin: auto;
-}
-
-/* Dark mode button */
-.darkmode-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 6px 12px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-/* Navigation */
-.nav {
-  text-align: center;
-  margin: 10px 0;
-}
-
-.nav a {
-  text-decoration: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  color: black;
-  font-size: 14px;
-}
-
-.nav a:hover {
-  background-color: #f2f2f2;
-}
-
-.dark .nav a {
-  color: white;
-  border-color: #444;
-}
-
-.dark .nav a:hover {
-  background-color: #222;
-}
-
-/* Section headings */
-h2 {
-  margin-top: 40px;
-  color: #1a73e8;
-}
-
-.dark h2 {
-  color: #8ab4f8;
-}
-
-/* Project sections */
-.projects {
-  margin-left: 30px;
-  background-color: #fafafa;
-  padding: 10px;
-  border-radius: 6px;
-}
-
-.dark .projects {
-  background-color: #1e1e1e;
-}
-
-/* Buttons */
-button {
-  background-color: #1a73e8;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #1558b0;
-}
-
-.dark button {
-  background-color: #3b82f6;
-}
-
-/* Links */
-a {
-  color: #1a73e8;
-}
-
-a:hover {
-  color: #1558b0;
-}
-
-.dark a {
-  color: #8ab4f8;
-}
-
-/* Footer */
-.footer {
-  margin-top: 40px;
-  padding: 15px;
-  text-align: center;
-  background-color: #f2f2f2;
-  color: #333;
-}
-
-.dark .footer {
-  background-color: #1a1a1a;
-  color: #ccc;
-}
-
-/* Dark mode base */
-.dark {
-  background-color: #111;
-  color: white;
-}
