@@ -17,7 +17,7 @@ h2 { margin-top: 40px; color: #1a73e8; }
 .dark h2 { color: #8ab4f8; }
 .projects { margin-left: 30px; background-color: #fff4cc; padding: 10px; border-radius: 6px; }
 .dark .projects { background-color: #1e1e1e; }
-button { background-color: #fff4cc; color: white; border: none; padding: 6px 12px; cursor: pointer; }
+button { background-color: ##24A0ED; color: white; border: none; padding: 6px 12px; cursor: pointer; }
 button:hover { background-color: #1558b0; }
 .dark button { background-color: #3b82f6; }
 a { color: #1a73e8; }
