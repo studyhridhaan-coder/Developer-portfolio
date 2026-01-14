@@ -30,22 +30,45 @@ padding: 5px 10px;cursor: pointer; }
 
 .profile-pic { width: 120px; border-radius: 50%; margin-top: 10px; }
 
-.nav { text-align: center;
-  margin: 10px 0;
-}
+.nav { text-align: center; margin: 10px 0; }
 
-.dark .nav a { color: white; border-color: #444;
-}
-
+.dark .nav a { color: white; border-color: #444; }
 .dark .nav a:hover { background-color: #222; }
 
 .nav a { text-decoration: none;
-  padding: 6px 12px; border: 1px solid #ccc; color: black; font-size: 14px;
+padding: 6px 12px; border: 1px solid #ccc; color: black; font-size: 14px; }
+.nav a:hover { background-color: #f2f2f2; }
+.projects { margin-left: 30px; }
+.top-section { background-color: #f0f4ff; padding: 20px 10px; }
+.dark .top-section { background-color: #1a1f2b; }
+h2 {
+  color: #1a73e8;
 }
 
-.nav a:hover { background-color: #f2f2f2;
+.dark h2 {
+  color: #8ab4f8;
+}
+button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1558b0;
+}
+.dark button {
+  background-color: #3b82f6;
+}
+a {
+  color: #1a73e8;
 }
 
-.projects {
-  margin-left: 30px;
+a:hover {
+  color: #1558b0;
 }
+.dark a {
+  color: #8ab4f8;
+}
+
